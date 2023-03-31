@@ -9,7 +9,7 @@ terraform {
   }
 }
 
-# Provider Block
+# Provider Blocks
 provider "aws" {
   region  = var.aws_region
   profile = "Landmark"
