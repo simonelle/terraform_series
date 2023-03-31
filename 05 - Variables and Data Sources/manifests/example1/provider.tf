@@ -1,4 +1,4 @@
-#terraform block
+#terraform blocks
 terraform {
   required_version = "~> 1.0"
   required_providers {
@@ -10,7 +10,7 @@ terraform {
 }
 
 
-#provider block
+#provider blocks
 provider "aws" {
   region  = var.aws_region
   profile = "Landmark"
